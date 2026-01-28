@@ -1,0 +1,7 @@
+- goingfrom: "New Delhi"
+  goingto: "New York"
+  date: "28/02/2026"
+
+- goingfrom: "Mumbai"
+  goingto: "Kolkata"
+  date: "15/02/2026"
