@@ -24,3 +24,6 @@ class BaseDriver:
     def test_merge(self):
         print("merge testing")
 
+    def test_con(self):
+        print("con testing")
+
