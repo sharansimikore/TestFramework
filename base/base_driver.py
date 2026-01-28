@@ -18,12 +18,8 @@ class BaseDriver:
                 break
             last_height = new_height
 
-    def test_conflict(self):
-        print("conflict testing")
+    def test(self):
+        print("test")
 
-    def test_merge(self):
-        print("merge testing")
-
-    def test_con(self):
-        print("con testing")
-
+    def xyx(self):
+        print("xyx")
