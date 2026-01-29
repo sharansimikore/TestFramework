@@ -18,5 +18,9 @@ class BaseDriver:
                 break
             last_height = new_height
 
+    def abc(self):
+        print("abc")
 
+    def xyz(self):
+        print("xyz")
     
