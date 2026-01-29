@@ -19,13 +19,4 @@ class BaseDriver:
             last_height = new_height
 
 
-    def test(self):
-        print("test")
-
-
-    def test_con(self):
-        print("con testing")
-
-
-    def xyx(self):
-        print("xyx")
+    
