@@ -5,6 +5,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 
+print("✅ conftest.py LOADED")
+
 # ---------- FIX 1: GLOBAL DRIVER STORE ----------
 @pytest.fixture(scope="class")
 def setup(request):
