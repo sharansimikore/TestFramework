@@ -25,7 +25,21 @@ def setup(request):
     yield
     driver.quit()
 
-
+# ================= CLI OPTIONS =================
+def pytest_addoption(parser):
+    parser.addoption(
+        "--browser",
+        action="store",
+        default="chrome",
+        help="Browser to run tests"
+    )
+    parser.addoption(
+        "--url",
+        action="store",
+        default="https://www.yatra.com/offer/details/icici-bank-offers",
+        help="Application URL"
+    )
+    
 # ---------- FIX 2: SCREENSHOT HOOK ----------
 @pytest.hookimpl(hookwrapper=True)
 def pytest_runtest_makereport(item, call):
